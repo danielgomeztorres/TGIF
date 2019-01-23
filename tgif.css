@@ -1,0 +1,158 @@
+/*......TGSY page.......*/
+
+
+/*...Top Logo Title...*/
+body {
+	background-color: #ecf6fb;
+}
+
+.flexboxtitle {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.color,
+h1,
+h2,
+h3 {
+	color: #1b7388;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+.title {
+	display: flex;
+	align-items: inherit;
+}
+
+
+/*...Nav...*/
+
+nav.navbar {
+
+	border-width: 2px;
+	border-color: #1b7388;
+	border-radius: 25px;
+}
+
+
+/*...separador...*/
+
+hr {
+
+
+	background-color: #1b7388;
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+
+}
+
+/*...Contenido...*/
+
+.tablaTitle{
+	background-color: #cee4ff;
+	border: #b4b7be;
+}
+#readMore {
+	
+	display: none;
+}
+
+.textsenator {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.textlogo {
+	display: flex;
+	width: 49%;
+
+}
+
+.textlogo1 {
+	display: flex;
+	width: 49%;
+	justify-content: space-around;
+}
+
+.titlefont {
+	font-family: 'Comfortaa', cursive;
+
+}
+
+
+.image {
+	background-image: url(media/kisspng-white-house-united-states-capitol-dome-building-fe-house-of-parliament-5a9d95c3292e59.4644428715202769311687.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+
+}
+
+.backgroundcolor {
+	background-color: #ffffff8c;
+}
+
+p {
+	font-weight: bold;
+	color: #434242;
+	font-family: 'Comfortaa', cursive;
+}
+
+
+
+
+
+.filters {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+
+
+.tableStyle {
+	border-width: 1px;
+	border-color: #1b7388;
+	border-radius: 25px;
+	background-color: blue;
+}
+
+.tableNtext {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+
+}
+
+.tablafixedtext {
+	display: flex;
+	width: 49%;
+}
+
+
+.tablePct {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/*...footer...*/
+
+.footertext {
+
+	display: flex;
+	justify-content: space-around;
+}
